@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dlg_AddStu</class>
+ <widget class="QDialog" name="Dlg_AddStu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>463</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>添加学生信息</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:aliceblue;</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <property name="sizeConstraint">
+    <enum>QLayout::SetMinAndMaxSize</enum>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>5</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>8</number>
+   </property>
+   <item row="0" column="5" colspan="2">
+    <spacer name="horizontalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>104</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="2" colspan="3">
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="horizontalSpacing">
+      <number>0</number>
+     </property>
+     <item row="1" column="1">
+      <widget class="QSpinBox" name="sB_age">
+       <property name="styleSheet">
+        <string notr="true"> border: 1px solid #18a5d4;
+ min-width: 90;
+ min-height: 25;
+ border-radius: 5;</string>
+       </property>
+       <property name="minimum">
+        <number>10</number>
+       </property>
+       <property name="maximum">
+        <number>99</number>
+       </property>
+       <property name="value">
+        <number>18</number>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_qq">
+       <property name="text">
+        <string>QQ账号</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="lE_qq">
+       <property name="styleSheet">
+        <string notr="true"> border: 1px solid #18a5d4;
+ min-width: 90;
+ min-height: 25;
+ border-radius: 5;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_student">
+       <property name="text">
+        <string>学号</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="lE_phone">
+       <property name="styleSheet">
+        <string notr="true"> border: 1px solid #18a5d4;
+ min-width: 90;
+ min-height: 25;
+ border-radius: 5;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_wechat">
+       <property name="text">
+        <string>微信帐号</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="lE_wechat">
+       <property name="styleSheet">
+        <string notr="true"> border: 1px solid #18a5d4;
+ min-width: 90;
+ min-height: 25;
+ border-radius: 5;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_name">
+       <property name="text">
+        <string>姓名</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="lE_name">
+       <property name="styleSheet">
+        <string notr="true"> border: 1px solid #18a5d4;
+ min-width: 90;
+ min-height: 25;
+ border-radius: 5;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lE_grade">
+       <property name="styleSheet">
+        <string notr="true"> border: 1px solid #18a5d4;
+ min-width: 90;
+ min-height: 25;
+ border-radius: 5;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_grade">
+       <property name="text">
+        <string>年级</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="lE_class">
+       <property name="styleSheet">
+        <string notr="true"> border: 1px solid #18a5d4;
+ min-width: 90;
+ min-height: 25;
+ border-radius: 5;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_age">
+       <property name="text">
+        <string>年龄</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_uiclass">
+       <property name="text">
+        <string>班级</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="lE_student">
+       <property name="styleSheet">
+        <string notr="true"> border: 1px solid #18a5d4;
+ min-width: 90;
+ min-height: 25;
+ border-radius: 5;</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_phone">
+       <property name="text">
+        <string>电话号</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <spacer name="horizontalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>61</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="4" colspan="2">
+    <widget class="QPushButton" name="btn_quxiao">
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-radius:6;
+border:1px;
+color:aliceblue;         
+background-color: rgb(81, 163, 244);
+min-width: 80;
+min-height: 28;
+}
+
+QPushButton:pressed{
+border-radius:6;
+border:1px;
+color:aliceblue;         
+background-color:rgb(255, 255, 255);
+min-width: 70;
+min-height: 28;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>取消</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <spacer name="horizontalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>148</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="6">
+    <spacer name="horizontalSpacer_5">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>61</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <spacer name="horizontalSpacer">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>104</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="1" column="1" colspan="2">
+    <widget class="QPushButton" name="btn_baocun">
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+border-radius:6;
+border:1px;
+color:aliceblue;         
+background-color: rgb(81, 163, 244);
+min-width: 80;
+min-height: 28;
+}
+
+QPushButton:pressed{
+border-radius:6;
+border:1px;
+color:aliceblue;         
+background-color:rgb(255, 255, 255);
+min-width: 70;
+min-height: 28;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>保存</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>lE_name</tabstop>
+  <tabstop>sB_age</tabstop>
+  <tabstop>lE_grade</tabstop>
+  <tabstop>lE_class</tabstop>
+  <tabstop>lE_student</tabstop>
+  <tabstop>lE_phone</tabstop>
+  <tabstop>lE_wechat</tabstop>
+  <tabstop>lE_qq</tabstop>
+  <tabstop>btn_baocun</tabstop>
+  <tabstop>btn_quxiao</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

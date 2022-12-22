@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>aufc.ico</file>
+        <file>qw.ico</file>
+    </qresource>
+</RCC>
